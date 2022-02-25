@@ -29,7 +29,7 @@ def obtenar_palabra_dia():
 
 def imprimir_teclado(palabras_usuario, palabra_wordle):
     # Crear teclado
-    cadena_teclado = list("[ Q ][ W ][ E ][ R ][ T ][ Y ][ U ][ I ][ O ][ P ]\n[ A ][ S ][ D ][ F ][ G ][ H ][ J ][ K ][ L ][ Ñ ]\n          [ Z ][ X ][ C ][ B ][ N ][ M ]")
+    cadena_teclado = list("[ Q ][ W ][ E ][ R ][ T ][ Y ][ U ][ I ][ O ][ P ]\n[ A ][ S ][ D ][ F ][ G ][ H ][ J ][ K ][ L ][ Ñ ]\n       [ Z ][ X ][ C ][ V ][ B ][ N ][ M ]")
 
     bandera_letra = 0
     # palabras_usuario1 = palabra_usuario
@@ -289,5 +289,5 @@ def obtener_confirmacion_input(confirmacion: str):
                         break
 
 if __name__ == '__main__':
-    obtener_confirmacion_input("yes") # para debugging
+    # obtener_confirmacion_input("yes") # para debugging
     app()
